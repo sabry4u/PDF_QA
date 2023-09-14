@@ -8,7 +8,7 @@ from constants import *
 
 
 
-# Streamlit app code
+# Streamlit app code for PDF_QA
 st.set_page_config(
     page_title='Q&A Bot for PDF',
     page_icon='🔖',
