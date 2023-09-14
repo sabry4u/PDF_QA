@@ -11,4 +11,4 @@ einops==0.6.1
 xformers==0.0.20
 itsdangerous==2.1.2
 bitsandbytes==0.39.0
-pysqlite3-binary == 0.5.1
+pysqlite3-binary==0.5.1
