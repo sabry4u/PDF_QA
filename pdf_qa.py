@@ -14,6 +14,10 @@ from transformers import AutoTokenizer
 import torch
 import os
 import re
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 
 class PdfQA:
     def __init__(self,config:dict = {}):
